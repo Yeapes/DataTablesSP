@@ -1,0 +1,20 @@
+{
+    "require": {
+        "illuminate/database": "^5.4",
+        "phpmailer/phpmailer": "^6.0",
+		"respect/validation": "1.1.*",
+        "phpoffice/phpspreadsheet": "^1.4",
+        "atelierdisko/coupon_code": "^1.0",
+        "gregwar/captcha": "^1.1",
+        "php-curl-class/php-curl-class": "^8.3",
+        "illuminate/pagination": "5.5"
+    },
+	"autoload": {
+		"psr-4": {
+			"App\\":"app"
+		},
+        "files": [
+            "app/Config/database.php"
+        ]
+	}
+}
